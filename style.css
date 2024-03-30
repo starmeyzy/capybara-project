@@ -8,6 +8,10 @@ h1 {
     opacity: 0.4;
 }
 
+h1:hover{
+    opacity: 1;
+}
+
 p {
     font-size: 40px;
     color: lightblue;
@@ -101,16 +105,6 @@ li:hover{
     color: aquamarine;
  }
 
-  .capy1{
-      display: flex;
-      justify-content: flex-start;
-  }
-
- .capy2{
-      display: flex;
-      justify-content: flex-end;
-  }
-
  .ocapybara{
      opacity: 0.4;
  }
@@ -158,10 +152,6 @@ li:last-child:hover{
      opacity: 1;
  }
 
- h1:hover{
-     opacity: 1.5;
- }
-
  .capyH1 h1:hover{
      opacity: 1;
  }
@@ -186,7 +176,7 @@ li:last-child:hover{
      opacity: 0.5;
      height: 150px;
      width: 150px;
-     margin-left: 375px;
+     margin-left: 0px;
  }
 
  .gcapybara img:hover{
@@ -194,7 +184,6 @@ li:last-child:hover{
      height: 350px;
      width: 400px;
      border: 1px solid white;
-     margin-left: 250px;
  }
 
  .fcapybara p{
@@ -218,3 +207,7 @@ li:last-child:hover{
      color: gold;
      text-decoration: underline;
  }
+
+main{
+    text-align: center;
+}
