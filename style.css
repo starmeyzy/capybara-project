@@ -1,0 +1,220 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    opacity: 0.4;
+}
+
+p {
+    font-size: 40px;
+    color: lightblue;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+ body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: lightblue;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px dashed navy;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: royalblue;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gallery img{
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+}
+
+.text {
+    width: 300px;
+}
+.right {
+    text-align: right;
+}
+
+.text p:hover {
+    color: navy;
+    font-size: 45px;
+}
+
+.text .right:hover {
+    color: darkorange;
+}
+
+.gallery img:hover {
+    margin: 20px;
+    border: 3px solid navy;
+    opacity: 1;
+} 
+
+ .borsch:hover{
+    color: aquamarine;
+ }
+
+li{
+    opacity: 0.5;
+}
+
+li:hover{
+    font-size: 25px;
+    opacity: 1
+}
+
+ .capybara h1:hover{
+    color: aquamarine;
+ }
+
+  .capy1{
+      display: flex;
+      justify-content: flex-start;
+  }
+
+ .capy2{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+ .ocapybara{
+     opacity: 0.4;
+ }
+
+ .ocapybara p{
+    color: black;
+    font-size: 15px;
+ }
+
+ .ocapybara p:hover{
+    color: lightseagreen;
+    font-size: 30px
+ }
+
+li:first-child:hover{
+    color: red;
+}
+
+li:nth-child(2):hover{
+    color: orange;
+}
+
+li:nth-child(3):hover{
+    color: yellow;
+}
+
+li:nth-child(4):hover{
+    color: green;
+}
+
+li:nth-child(5):hover{
+    color: cyan;
+}
+
+li:nth-child(6):hover{
+    color: blue;
+}
+
+li:last-child:hover{
+    color: purple;
+}
+
+ .capyH1:hover{
+     color: aquamarine;
+     opacity: 1;
+ }
+
+ h1:hover{
+     opacity: 1.5;
+ }
+
+ .capyH1 h1:hover{
+     opacity: 1;
+ }
+
+  .gcapybara h1:hover{
+      color: aquamarine;
+  }
+
+ .gcapybara p{
+     font-size: 15px;
+     color: black;
+     opacity: 0.5;
+ }
+
+ .gcapybara p:hover{
+     opacity: 1;
+     color: lightskyblue;
+     font-size: 30px;
+ }
+
+ .gcapybara img{
+     opacity: 0.5;
+     height: 150px;
+     width: 150px;
+     margin-left: 375px;
+ }
+
+ .gcapybara img:hover{
+     opacity: 1;
+     height: 350px;
+     width: 400px;
+     border: 1px solid white;
+     margin-left: 250px;
+ }
+
+ .fcapybara p{
+     opacity: 1;
+     color: aquamarine;
+     background-color: lightskyblue;
+     border-radius: 20px;
+     border-top: 10px double gold;
+     border-bottom: 10px double gold;
+     border-left: 10px double pink;
+     border-right: 10px double pink;
+     margin: 10px;
+ }
+
+ .fcapybara a{
+     text-decoration: none;
+     color: brown;
+ }
+
+ .fcapybara a:hover{
+     color: gold;
+     text-decoration: underline;
+ }
