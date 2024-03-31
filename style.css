@@ -205,7 +205,18 @@ li:last-child:hover{
 
  .fcapybara a:hover{
      color: gold;
-     text-decoration: underline;
+     text-decoration: underline;\
+ }
+
+ .fcapybara a:active{
+    color: lightskyblue;
+    text-decoration; none;
+ }
+     
+
+ .fcapybara a:visited{
+     color: gray;
+     text-decoration: underline
  }
 
 main{
